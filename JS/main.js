@@ -319,11 +319,6 @@ const countries = {
 
       // if country is not united states, then modify the country to be united states, and city to be florida tampa
 
-      if (location.country.toLowerCase() !== 'us') {
-        location.country = 'US'
-        location.city = 'Florida, Tampa'
-      }
-
       locationName.innerHTML = `${location.city}, ${
         countries[location.country.toLowerCase()]
       }`
