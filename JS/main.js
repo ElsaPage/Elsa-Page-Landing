@@ -323,15 +323,14 @@ const countries = {
         countries[location.country.toLowerCase()]
       }`
   
-      // locationPeriod.innerHTML = `I’m staying in ${location.city.toLowerCase()} from ${subtractDaysFromDate(-4).substring(
-      //   3,
-      //   10,
-      // )} to ${subtractDaysFromDate(2).substring(
-      //   3,
-      //   10,
-      // )} 🥰 <br/> matches only: send me a ❤️
-      //     in my DMs`
-      locationPeriod.innerHTML = `📍 3.2 miles away`
+      locationPeriod.innerHTML = `I’m staying in ${location.city.toLowerCase()} from ${subtractDaysFromDate(-4).substring(
+         3,
+         10,
+        )} to ${subtractDaysFromDate(2).substring(
+         3,
+        10,
+       )} from Oct 19 to Oct 25 🥰 `
+      // locationPeriod.innerHTML = `📍 3.2 miles away`
     }
   
     const getLocation = async () => {
