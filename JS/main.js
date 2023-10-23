@@ -329,7 +329,7 @@ const countries = {
         )} to ${subtractDaysFromDate(2).substring(
          3,
         10,
-       )} from Oct 19 to Oct 25 🥰 `
+       )} 🥰 `
       // locationPeriod.innerHTML = `📍 3.2 miles away`
     }
   
